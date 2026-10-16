@@ -1,0 +1,16 @@
+# Environment files (never commit secrets)
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Vite / frontend build
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
